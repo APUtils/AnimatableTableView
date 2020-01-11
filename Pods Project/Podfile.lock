@@ -1,0 +1,35 @@
+PODS:
+  - AnimatableTableView (1.0.0)
+  - APExtensions (7.0.1):
+    - APExtensions/Abstractions (= 7.0.1)
+    - APExtensions/Core (= 7.0.1)
+    - APExtensions/Storyboard (= 7.0.1)
+    - APExtensions/ViewConfiguration (= 7.0.1)
+  - APExtensions/Abstractions (7.0.1)
+  - APExtensions/Core (7.0.1)
+  - APExtensions/Storyboard (7.0.1)
+  - APExtensions/ViewConfiguration (7.0.1)
+
+DEPENDENCIES:
+  - AnimatableTableView (from `../`)
+  - APExtensions (from `https://github.com/APUtils/APExtensions`, branch `master`)
+
+EXTERNAL SOURCES:
+  AnimatableTableView:
+    :path: "../"
+  APExtensions:
+    :branch: master
+    :git: https://github.com/APUtils/APExtensions
+
+CHECKOUT OPTIONS:
+  APExtensions:
+    :commit: bbb1b025c937b9c638d91813a2f50889863a7056
+    :git: https://github.com/APUtils/APExtensions
+
+SPEC CHECKSUMS:
+  AnimatableTableView: 1c63a1277069e0957fa2a8cc4e47dc5910afb520
+  APExtensions: e0377240c9db7bc42c3b864c039ba70c1b4034a3
+
+PODFILE CHECKSUM: 75f0e88d0dc68476781c93d0b924e7c2a9ef3241
+
+COCOAPODS: 1.8.4
