@@ -37,7 +37,10 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHD-wa-bRn">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Animatable Table View"/>
+                                        <connections>
+                                            <action selector="onAnimatableTableViewTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z3V-Gd-IEN"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

@@ -1,4 +1,5 @@
 github "APUtils/APExtensions" "master"
+github "APUtils/BaseClasses"
 github "ashfurrow/Nimble-Snapshots"
 github "Quick/Nimble"
 github "Quick/Quick"

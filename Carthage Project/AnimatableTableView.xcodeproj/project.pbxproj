@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D3445EC23CA929E0053C1C4 /* AnimatableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3445EB23CA929B0053C1C4 /* AnimatableTableView.swift */; };
+		0D3445F423CA92B00053C1C4 /* AnimatableTableViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3445EE23CA92AC0053C1C4 /* AnimatableTableViewVM.swift */; };
+		0D3445F523CA92B00053C1C4 /* AnimatableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3445EF23CA92AC0053C1C4 /* AnimatableTableViewCell.swift */; };
+		0D3445F623CA92B00053C1C4 /* AnimatableTableViewCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3445F023CA92AC0053C1C4 /* AnimatableTableViewCellVM.swift */; };
+		0D3445F723CA92B00053C1C4 /* AnimatableTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3445F123CA92AC0053C1C4 /* AnimatableTableView.storyboard */; };
+		0D3445F823CA92B00053C1C4 /* AnimatableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D3445F223CA92AC0053C1C4 /* AnimatableTableViewCell.xib */; };
+		0D3445F923CA92B00053C1C4 /* AnimatableTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3445F323CA92AC0053C1C4 /* AnimatableTableViewVC.swift */; };
 		0D5A7DB823B4FC4A00E0687B /* FBSnapshotTestCase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0491600AEA500A849511DBA7 /* FBSnapshotTestCase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0D5A7DB923B4FC4A00E0687B /* Nimble_Snapshots.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40B2AC5FE675C1BC6FEA20DC /* Nimble_Snapshots.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0D5A7DBA23B4FC4A00E0687B /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2A7396D2260D99900E97D55 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0D5A7DBB23B4FC4A00E0687B /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2A7396C2260D99900E97D55 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0D9A78A923C0CBD600BE1A8A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9A78A823C0CBD600BE1A8A /* Utils.swift */; };
 		0DBC7CE823B9577200CD0EA1 /* APExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBC7CE723B9577200CD0EA1 /* APExtensions.framework */; };
+		0DC724ED23CB7ABF005039BC /* CGFloat+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC724EB23CB7AA5005039BC /* CGFloat+Utils.swift */; };
+		0DC724EE23CB7ABF005039BC /* CGRect+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC724E823CB7AA5005039BC /* CGRect+Utils.swift */; };
+		0DC724EF23CB7ABF005039BC /* UIScrollView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC724EC23CB7AA5005039BC /* UIScrollView+Utils.swift */; };
+		0DC724F023CB7ABF005039BC /* UITableView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC724E923CB7AA5005039BC /* UITableView+Utils.swift */; };
+		0DC724F123CB7ABF005039BC /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC724EA23CB7AA5005039BC /* UIView+Utils.swift */; };
+		97C29698269A980DAFFE7B0B /* BaseClasses.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56E1D542612AFC4BF86E83A /* BaseClasses.framework */; };
 		E202681822117D03004CC28A /* AnimatableTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E202681622117D03004CC28A /* AnimatableTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E275E06F229FF84E00E9900C /* AnimatableTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E202681322117D03004CC28A /* AnimatableTableView.framework */; };
 		E275E08322A03A8900E9900C /* AnimatableTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E202681322117D03004CC28A /* AnimatableTableView.framework */; };
@@ -75,21 +88,34 @@
 
 /* Begin PBXFileReference section */
 		0491600AEA500A849511DBA7 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = Carthage/Build/iOS/FBSnapshotTestCase.framework; sourceTree = "<group>"; };
+		0D3445EB23CA929B0053C1C4 /* AnimatableTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableTableView.swift; sourceTree = "<group>"; };
+		0D3445EE23CA92AC0053C1C4 /* AnimatableTableViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableTableViewVM.swift; sourceTree = "<group>"; };
+		0D3445EF23CA92AC0053C1C4 /* AnimatableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableTableViewCell.swift; sourceTree = "<group>"; };
+		0D3445F023CA92AC0053C1C4 /* AnimatableTableViewCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableTableViewCellVM.swift; sourceTree = "<group>"; };
+		0D3445F123CA92AC0053C1C4 /* AnimatableTableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AnimatableTableView.storyboard; sourceTree = "<group>"; };
+		0D3445F223CA92AC0053C1C4 /* AnimatableTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimatableTableViewCell.xib; sourceTree = "<group>"; };
+		0D3445F323CA92AC0053C1C4 /* AnimatableTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableTableViewVC.swift; sourceTree = "<group>"; };
 		0D9A78A823C0CBD600BE1A8A /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		0DBC7CE723B9577200CD0EA1 /* APExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APExtensions.framework; path = ../Carthage/Build/iOS/APExtensions.framework; sourceTree = "<group>"; };
-		117C70296B9EAF6056552CB7 /* podCheck.command */ = {isa = PBXFileReference; includeInIndex = 1; name = podCheck.command; path = ../podCheck.command; sourceTree = "<group>"; };
-		26A26927656D1C3163B996B7 /* podPush.command */ = {isa = PBXFileReference; includeInIndex = 1; name = podPush.command; path = ../podPush.command; sourceTree = "<group>"; };
+		0DC724E823CB7AA5005039BC /* CGRect+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Utils.swift"; sourceTree = "<group>"; };
+		0DC724E923CB7AA5005039BC /* UITableView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Utils.swift"; sourceTree = "<group>"; };
+		0DC724EA23CB7AA5005039BC /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		0DC724EB23CB7AA5005039BC /* CGFloat+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Utils.swift"; sourceTree = "<group>"; };
+		0DC724EC23CB7AA5005039BC /* UIScrollView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Utils.swift"; sourceTree = "<group>"; };
+		117C70296B9EAF6056552CB7 /* podCheck.command */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = podCheck.command; path = ../podCheck.command; sourceTree = "<group>"; };
+		26A26927656D1C3163B996B7 /* podPush.command */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = podPush.command; path = ../podPush.command; sourceTree = "<group>"; };
 		27A65933230C2FF4F758F562 /* carthageUpdate.command */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = carthageUpdate.command; path = Scripts/Carthage/carthageUpdate.command; sourceTree = "<group>"; };
 		40B2AC5FE675C1BC6FEA20DC /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble_Snapshots.framework; path = Carthage/Build/iOS/Nimble_Snapshots.framework; sourceTree = "<group>"; };
-		5736A7054F969590BDF33D87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		63FB89FC8E82F35F10ECE4C4 /* .cocoadocs.yml */ = {isa = PBXFileReference; includeInIndex = 1; name = .cocoadocs.yml; path = ../.cocoadocs.yml; sourceTree = "<group>"; };
+		5736A7054F969590BDF33D87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		63FB89FC8E82F35F10ECE4C4 /* .cocoadocs.yml */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.yaml; name = .cocoadocs.yml; path = ../.cocoadocs.yml; sourceTree = "<group>"; };
 		722BFDE9DE58393B9D916719 /* carthageRemove.command */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = carthageRemove.command; path = Scripts/Carthage/carthageRemove.command; sourceTree = "<group>"; };
 		75997ED1E9FAC56B9BEC3F0E /* carthageAdd.command */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = carthageAdd.command; path = Scripts/Carthage/carthageAdd.command; sourceTree = "<group>"; };
-		8950A9DCF16A5E88C777DF38 /* AnimatableTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AnimatableTableView.podspec; path = ../AnimatableTableView.podspec; sourceTree = "<group>"; };
-		8C7C350C62B826C94574B36A /* .travis.yml */ = {isa = PBXFileReference; includeInIndex = 1; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
-		9F7BEDC9DB311CA01C859578 /* DEPLOY PROCESS.md */ = {isa = PBXFileReference; includeInIndex = 1; name = "DEPLOY PROCESS.md"; path = "../DEPLOY PROCESS.md"; sourceTree = "<group>"; };
-		A54ADF1AE3E9E493ECC4A407 /* podUpdate.command */ = {isa = PBXFileReference; includeInIndex = 1; name = podUpdate.command; path = "../Pods Project/Scripts/Cocoapods/podUpdate.command"; sourceTree = "<group>"; };
-		C739B2CB4E673ABF080CB322 /* .gitignore */ = {isa = PBXFileReference; includeInIndex = 1; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		8950A9DCF16A5E88C777DF38 /* AnimatableTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnimatableTableView.podspec; path = ../AnimatableTableView.podspec; sourceTree = "<group>"; };
+		8C7C350C62B826C94574B36A /* .travis.yml */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.yaml; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
+		9F7BEDC9DB311CA01C859578 /* DEPLOY PROCESS.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = "DEPLOY PROCESS.md"; path = "../DEPLOY PROCESS.md"; sourceTree = "<group>"; };
+		A54ADF1AE3E9E493ECC4A407 /* podUpdate.command */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = podUpdate.command; path = "../Pods Project/Scripts/Cocoapods/podUpdate.command"; sourceTree = "<group>"; };
+		C739B2CB4E673ABF080CB322 /* .gitignore */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		D56E1D542612AFC4BF86E83A /* BaseClasses.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaseClasses.framework; path = Carthage/Build/iOS/BaseClasses.framework; sourceTree = "<group>"; };
 		E202681322117D03004CC28A /* AnimatableTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnimatableTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E202681622117D03004CC28A /* AnimatableTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatableTableView.h; sourceTree = "<group>"; };
 		E202681722117D03004CC28A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,9 +133,9 @@
 		E2A7396D2260D99900E97D55 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		E2C3136822DF77F300D6797A /* __ReferenceImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = __ReferenceImages; sourceTree = "<group>"; };
 		E2C3136922DF77F300D6797A /* __FailureDiffs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = __FailureDiffs; sourceTree = "<group>"; };
-		E9BBD18547D09DA82F81E2C5 /* checkBuild.command */ = {isa = PBXFileReference; includeInIndex = 1; name = checkBuild.command; path = ../checkBuild.command; sourceTree = "<group>"; };
-		ED8EDE0CB6776140B9C595ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F7FC6FFBA70F856EBC1DF32A /* CHANGELOG.md */ = {isa = PBXFileReference; includeInIndex = 1; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
+		E9BBD18547D09DA82F81E2C5 /* checkBuild.command */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = checkBuild.command; path = ../checkBuild.command; sourceTree = "<group>"; };
+		ED8EDE0CB6776140B9C595ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F7FC6FFBA70F856EBC1DF32A /* CHANGELOG.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +152,7 @@
 			files = (
 				E275E08322A03A8900E9900C /* AnimatableTableView.framework in Frameworks */,
 				0DBC7CE823B9577200CD0EA1 /* APExtensions.framework in Frameworks */,
+				97C29698269A980DAFFE7B0B /* BaseClasses.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +171,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D3445ED23CA92AC0053C1C4 /* AnimatableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				0D3445EE23CA92AC0053C1C4 /* AnimatableTableViewVM.swift */,
+				0D3445EF23CA92AC0053C1C4 /* AnimatableTableViewCell.swift */,
+				0D3445F023CA92AC0053C1C4 /* AnimatableTableViewCellVM.swift */,
+				0D3445F123CA92AC0053C1C4 /* AnimatableTableView.storyboard */,
+				0D3445F223CA92AC0053C1C4 /* AnimatableTableViewCell.xib */,
+				0D3445F323CA92AC0053C1C4 /* AnimatableTableViewVC.swift */,
+			);
+			path = AnimatableTableView;
+			sourceTree = "<group>";
+		};
+		0DC724DD23CB7A50005039BC /* _Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0DC724EB23CB7AA5005039BC /* CGFloat+Utils.swift */,
+				0DC724E823CB7AA5005039BC /* CGRect+Utils.swift */,
+				0DC724EC23CB7AA5005039BC /* UIScrollView+Utils.swift */,
+				0DC724E923CB7AA5005039BC /* UITableView+Utils.swift */,
+				0DC724EA23CB7AA5005039BC /* UIView+Utils.swift */,
+			);
+			path = _Extensions;
+			sourceTree = "<group>";
+		};
 		1834AC72A69DC91E1F3B8EDA /* _Carthage */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +241,8 @@
 		E2766F332260FFF7003BDA19 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				0DC724DD23CB7A50005039BC /* _Extensions */,
+				0D3445EB23CA929B0053C1C4 /* AnimatableTableView.swift */,
 			);
 			name = Sources;
 			path = ../../AnimatableTableView/Classes;
@@ -197,6 +251,7 @@
 		E2A7394C2260CFC700E97D55 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				0D3445ED23CA92AC0053C1C4 /* AnimatableTableView */,
 				E2A7394D2260CFC700E97D55 /* AppDelegate.swift */,
 				E2A7394F2260CFC700E97D55 /* ViewController.swift */,
 				E2A739512260CFC700E97D55 /* Main.storyboard */,
@@ -244,9 +299,10 @@
 			children = (
 				1834AC72A69DC91E1F3B8EDA /* _Carthage */,
 				0DBC7CE723B9577200CD0EA1 /* APExtensions.framework */,
+				D56E1D542612AFC4BF86E83A /* BaseClasses.framework */,
 				0491600AEA500A849511DBA7 /* FBSnapshotTestCase.framework */,
-				40B2AC5FE675C1BC6FEA20DC /* Nimble_Snapshots.framework */,
 				E2A7396D2260D99900E97D55 /* Nimble.framework */,
+				40B2AC5FE675C1BC6FEA20DC /* Nimble_Snapshots.framework */,
 				E2A7396C2260D99900E97D55 /* Quick.framework */,
 			);
 			name = Frameworks;
@@ -350,7 +406,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E202680D22117D03004CC28A /* Build configuration list for PBXProject "PROJECTNAME" */;
+			buildConfigurationList = E202680D22117D03004CC28A /* Build configuration list for PBXProject "AnimatableTableView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -384,7 +440,9 @@
 			files = (
 				E2A739582260CFC800E97D55 /* LaunchScreen.storyboard in Resources */,
 				E2A739552260CFC800E97D55 /* Assets.xcassets in Resources */,
+				0D3445F723CA92B00053C1C4 /* AnimatableTableView.storyboard in Resources */,
 				E2A739532260CFC700E97D55 /* Main.storyboard in Resources */,
+				0D3445F823CA92B00053C1C4 /* AnimatableTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,12 +483,14 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/APExtensions.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/BaseClasses.framework",
 			);
 			name = "Carthage Copy";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/APExtensions.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/BaseClasses.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -461,6 +521,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC724ED23CB7ABF005039BC /* CGFloat+Utils.swift in Sources */,
+				0D3445EC23CA929E0053C1C4 /* AnimatableTableView.swift in Sources */,
+				0DC724EE23CB7ABF005039BC /* CGRect+Utils.swift in Sources */,
+				0DC724EF23CB7ABF005039BC /* UIScrollView+Utils.swift in Sources */,
+				0DC724F123CB7ABF005039BC /* UIView+Utils.swift in Sources */,
+				0DC724F023CB7ABF005039BC /* UITableView+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,8 +534,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3445F923CA92B00053C1C4 /* AnimatableTableViewVC.swift in Sources */,
 				E2A739502260CFC700E97D55 /* ViewController.swift in Sources */,
+				0D3445F523CA92B00053C1C4 /* AnimatableTableViewCell.swift in Sources */,
 				E2A7394E2260CFC700E97D55 /* AppDelegate.swift in Sources */,
+				0D3445F423CA92B00053C1C4 /* AnimatableTableViewVM.swift in Sources */,
+				0D3445F623CA92B00053C1C4 /* AnimatableTableViewCellVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,7 +858,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E202680D22117D03004CC28A /* Build configuration list for PBXProject "PROJECTNAME" */ = {
+		E202680D22117D03004CC28A /* Build configuration list for PBXProject "AnimatableTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E202681922117D03004CC28A /* Debug */,

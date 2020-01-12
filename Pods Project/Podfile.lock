@@ -23,13 +23,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   APExtensions:
-    :commit: bbb1b025c937b9c638d91813a2f50889863a7056
+    :commit: 282d4612f7b3b3a7e0aa8731dba0c1b3048cbd19
     :git: https://github.com/APUtils/APExtensions
 
 SPEC CHECKSUMS:
-  AnimatableTableView: 1c63a1277069e0957fa2a8cc4e47dc5910afb520
+  AnimatableTableView: a5061f8dd0b22e3f9b888b89c8296b2da2dd6da3
   APExtensions: e0377240c9db7bc42c3b864c039ba70c1b4034a3
 
-PODFILE CHECKSUM: 75f0e88d0dc68476781c93d0b924e7c2a9ef3241
+PODFILE CHECKSUM: 2c8fbe098af0bc3c38d45719769cc6cbd11f6cbd
 
 COCOAPODS: 1.8.4

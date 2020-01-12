@@ -17,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		027B4E89C2709A3A0F3D196D /* Pods-AnimatableTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatableTableView_Example.release.xcconfig"; path = "Target Support Files/Pods-AnimatableTableView_Example/Pods-AnimatableTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0D3445D023CA83F30053C1C4 /* AnimatableTableView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = AnimatableTableView.podspec; path = ../AnimatableTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0D47705623B79E79005209A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AnimatableTableView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatableTableView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 		607FACF51AFB993E008FA782 /* _ */ = {
 			isa = PBXGroup;
 			children = (
+				0D3445D023CA83F30053C1C4 /* AnimatableTableView.podspec */,
 			);
 			name = _;
 			sourceTree = "<group>";
@@ -118,7 +120,6 @@
 				D0626518975C4BC84AFA5BD7 /* Pods-AnimatableTableView_Example.debug.xcconfig */,
 				027B4E89C2709A3A0F3D196D /* Pods-AnimatableTableView_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -222,10 +223,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AnimatableTableView_Example/Pods-AnimatableTableView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/APExtensions/APExtensions.framework",
+				"${BUILT_PRODUCTS_DIR}/AnimatableTableView/AnimatableTableView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimatableTableView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

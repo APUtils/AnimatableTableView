@@ -19,4 +19,11 @@ final class ViewController: UIViewController {
         
         
     }
+    
+    // ******************************* MARK: - Actions
+    
+    @IBAction private func onAnimatableTableViewTap(_ sender: Any) {
+        let vc = AnimatableTableViewVC.instantiateFromStoryboard()
+        navigationController?.pushViewController(vc)
+    }
 }
