@@ -1,3 +1,4 @@
+github "APUtils/APControllers" "70cbba3b89a5cd0de22eb9d2a56eb0634a0c79e5"
 github "APUtils/APExtensions" "6a77f7952006a7f34a5a4c4309b9fc66e4321acc"
 github "APUtils/BaseClasses" "4.0.0"
 github "Quick/Nimble" "v8.0.5"

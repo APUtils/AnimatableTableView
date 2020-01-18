@@ -7,6 +7,7 @@
 //
 
 import AnimatableTableView
+import APControllers
 import APExtensions
 import UIKit
 
@@ -18,7 +19,7 @@ final class AnimatableTableViewVC: UIViewController {
     
     // ******************************* MARK: - Private Properties
     
-    private var vm: AnimatableTableViewVM = .init()
+    private var vm: AnimatableTableViewVM!
     
     // ******************************* MARK: - Initialization and Setup
     
@@ -35,6 +36,10 @@ final class AnimatableTableViewVC: UIViewController {
         tableView.registerNib(class: AnimatableTableViewCell.self)
         tableView.estimatedRowHeight = 44
         tableView.rowHeight = UITableView.automaticDimension
+        
+        if vm.useSizeControllers {
+            tableView.optimizeCellHeightComputations(cell: AnimatableTableViewCell.instantiateFromXib(), cellConfigurator: self)
+        }
     }
     
     // ******************************* MARK: - Actions
@@ -73,11 +78,18 @@ final class AnimatableTableViewVC: UIViewController {
 
 // ******************************* MARK: - InstantiatableFromStoryboard
 
-extension AnimatableTableViewVC: InstantiatableFromStoryboard {}
+extension AnimatableTableViewVC: InstantiatableFromStoryboard {
+    static func instantiateFromStoryboard(vm: AnimatableTableViewVM) -> AnimatableTableViewVC {
+        let vc = instantiateFromStoryboard()
+        vc.vm = vm
+        
+        return vc
+    }
+}
 
 // ******************************* MARK: - UITableViewDelegate, UITableViewDataSource
 
-extension AnimatableTableViewVC: UITableViewDelegate, UITableViewDataSource, AnimatableTableViewDataSource {
+extension AnimatableTableViewVC: UITableViewDelegate, UITableViewDataSource, AnimatableTableViewDataSource, CellConfigurator {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return vm.cellVMs.count

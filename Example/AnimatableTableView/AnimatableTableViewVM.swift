@@ -14,11 +14,13 @@ struct AnimatableTableViewVM {
     
     // ******************************* MARK: - Public Properties
     
+    let useSizeControllers: Bool
     var cellVMs: [AnimatableTableViewCellVM]
     
     // ******************************* MARK: - Initialization and Setup
     
-    init() {
+    init(useSizeControllers: Bool) {
+        self.useSizeControllers = useSizeControllers
         self.cellVMs = stride(from: 0, to: AnimatableTableViewVM.cellsCount, by: 1)
             .map { _ in AnimatableTableViewCellVM() }
     }

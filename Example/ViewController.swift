@@ -23,7 +23,14 @@ final class ViewController: UIViewController {
     // ******************************* MARK: - Actions
     
     @IBAction private func onAnimatableTableViewTap(_ sender: Any) {
-        let vc = AnimatableTableViewVC.instantiateFromStoryboard()
+        let vm = AnimatableTableViewVM(useSizeControllers: false)
+        let vc = AnimatableTableViewVC.instantiateFromStoryboard(vm: vm)
+        navigationController?.pushViewController(vc)
+    }
+    
+    @IBAction private func onAnimatableTableViewWithControllersTap(_ sender: Any) {
+        let vm = AnimatableTableViewVM(useSizeControllers: true)
+        let vc = AnimatableTableViewVC.instantiateFromStoryboard(vm: vm)
         navigationController?.pushViewController(vc)
     }
 }

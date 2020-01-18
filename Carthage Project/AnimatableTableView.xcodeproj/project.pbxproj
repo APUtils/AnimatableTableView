@@ -40,6 +40,7 @@
 		E2A7396F2260D99900E97D55 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A7396D2260D99900E97D55 /* Nimble.framework */; };
 		E2C3135822DF6DF400D6797A /* Nimble_Snapshots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B2AC5FE675C1BC6FEA20DC /* Nimble_Snapshots.framework */; };
 		E2C3135922DF6E9400D6797A /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0491600AEA500A849511DBA7 /* FBSnapshotTestCase.framework */; };
+		E702176336C8D980510DA0BD /* APControllers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DC1A3CC35C376D2C2F6E9F /* APControllers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		26A26927656D1C3163B996B7 /* podPush.command */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = podPush.command; path = ../podPush.command; sourceTree = "<group>"; };
 		27A65933230C2FF4F758F562 /* carthageUpdate.command */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = carthageUpdate.command; path = Scripts/Carthage/carthageUpdate.command; sourceTree = "<group>"; };
 		40B2AC5FE675C1BC6FEA20DC /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble_Snapshots.framework; path = Carthage/Build/iOS/Nimble_Snapshots.framework; sourceTree = "<group>"; };
+		50DC1A3CC35C376D2C2F6E9F /* APControllers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APControllers.framework; path = Carthage/Build/iOS/APControllers.framework; sourceTree = "<group>"; };
 		5736A7054F969590BDF33D87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		63FB89FC8E82F35F10ECE4C4 /* .cocoadocs.yml */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.yaml; name = .cocoadocs.yml; path = ../.cocoadocs.yml; sourceTree = "<group>"; };
 		722BFDE9DE58393B9D916719 /* carthageRemove.command */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = carthageRemove.command; path = Scripts/Carthage/carthageRemove.command; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E275E08322A03A8900E9900C /* AnimatableTableView.framework in Frameworks */,
+				E702176336C8D980510DA0BD /* APControllers.framework in Frameworks */,
 				0DBC7CE823B9577200CD0EA1 /* APExtensions.framework in Frameworks */,
 				97C29698269A980DAFFE7B0B /* BaseClasses.framework in Frameworks */,
 			);
@@ -298,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				1834AC72A69DC91E1F3B8EDA /* _Carthage */,
+				50DC1A3CC35C376D2C2F6E9F /* APControllers.framework */,
 				0DBC7CE723B9577200CD0EA1 /* APExtensions.framework */,
 				D56E1D542612AFC4BF86E83A /* BaseClasses.framework */,
 				0491600AEA500A849511DBA7 /* FBSnapshotTestCase.framework */,
@@ -482,6 +486,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/APControllers.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/APExtensions.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/BaseClasses.framework",
 			);
@@ -489,6 +494,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/APControllers.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/APExtensions.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/BaseClasses.framework",
 			);

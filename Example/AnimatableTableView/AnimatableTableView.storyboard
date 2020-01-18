@@ -43,7 +43,27 @@
                     </view>
                     <navigationItem key="navigationItem" id="34w-fQ-bSu">
                         <barButtonItem key="backBarButtonItem" title=" " id="acM-6b-jal"/>
-                        <leftBarButtonItems>
+                        <rightBarButtonItems>
+                            <barButtonItem id="Vt4-zf-fao">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JmQ-A2-kKN">
+                                    <rect key="frame" x="299" y="7" width="60" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Delete"/>
+                                    <connections>
+                                        <action selector="onDeleteTap:" destination="qR7-wM-gYJ" eventType="touchUpInside" id="eu6-5T-nVn"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                            <barButtonItem id="C3K-xL-xQ1">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ag7-zw-4cc">
+                                    <rect key="frame" x="231" y="7" width="60" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Reload"/>
+                                    <connections>
+                                        <action selector="onReloadTap:" destination="qR7-wM-gYJ" eventType="touchUpInside" id="urb-zX-0AN"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
                             <barButtonItem width="30" id="OG2-Zp-KZC">
                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WUm-nO-86j">
                                     <rect key="frame" x="16" y="7" width="30" height="30"/>
@@ -71,28 +91,6 @@
                                     <state key="normal" title="I"/>
                                     <connections>
                                         <action selector="onInsertTap:" destination="qR7-wM-gYJ" eventType="touchUpInside" id="vj9-8w-uc7"/>
-                                    </connections>
-                                </button>
-                            </barButtonItem>
-                        </leftBarButtonItems>
-                        <rightBarButtonItems>
-                            <barButtonItem id="Vt4-zf-fao">
-                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JmQ-A2-kKN">
-                                    <rect key="frame" x="299" y="7" width="60" height="30"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="Delete"/>
-                                    <connections>
-                                        <action selector="onDeleteTap:" destination="qR7-wM-gYJ" eventType="touchUpInside" id="eu6-5T-nVn"/>
-                                    </connections>
-                                </button>
-                            </barButtonItem>
-                            <barButtonItem id="C3K-xL-xQ1">
-                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ag7-zw-4cc">
-                                    <rect key="frame" x="231" y="7" width="60" height="30"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="Reload"/>
-                                    <connections>
-                                        <action selector="onReloadTap:" destination="qR7-wM-gYJ" eventType="touchUpInside" id="urb-zX-0AN"/>
                                     </connections>
                                 </button>
                             </barButtonItem>
