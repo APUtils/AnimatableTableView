@@ -49,6 +49,13 @@ final class AnimatableTableViewVC: UIViewController {
         tableView.appendRowAndScrollToIt()
     }
     
+    @IBAction private func onInsertTap(_ sender: Any) {
+        let random: Int = .random(in: 0..<vm.cellVMs.count)
+        let indexPath = IndexPath(row: random, section: 0)
+        vm.cellVMs.insert(AnimatableTableViewCellVM(), at: random)
+        tableView.insertRowAndScrollToIt(indexPath: indexPath)
+    }
+    
     @IBAction private func onDeleteTap(_ sender: Any) {
         let random: Int = .random(in: 0..<vm.cellVMs.count)
         let indexPath = IndexPath(row: random, section: 0)

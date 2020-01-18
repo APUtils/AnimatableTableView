@@ -174,12 +174,12 @@
 		0D3445ED23CA92AC0053C1C4 /* AnimatableTableView */ = {
 			isa = PBXGroup;
 			children = (
-				0D3445EE23CA92AC0053C1C4 /* AnimatableTableViewVM.swift */,
-				0D3445EF23CA92AC0053C1C4 /* AnimatableTableViewCell.swift */,
-				0D3445F023CA92AC0053C1C4 /* AnimatableTableViewCellVM.swift */,
 				0D3445F123CA92AC0053C1C4 /* AnimatableTableView.storyboard */,
+				0D3445EF23CA92AC0053C1C4 /* AnimatableTableViewCell.swift */,
 				0D3445F223CA92AC0053C1C4 /* AnimatableTableViewCell.xib */,
+				0D3445F023CA92AC0053C1C4 /* AnimatableTableViewCellVM.swift */,
 				0D3445F323CA92AC0053C1C4 /* AnimatableTableViewVC.swift */,
+				0D3445EE23CA92AC0053C1C4 /* AnimatableTableViewVM.swift */,
 			);
 			path = AnimatableTableView;
 			sourceTree = "<group>";

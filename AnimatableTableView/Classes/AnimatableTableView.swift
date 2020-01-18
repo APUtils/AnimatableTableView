@@ -166,6 +166,16 @@ open class AnimatableTableView: UITableView {
         _scrollToTop(animated: true)
     }
     
+    open func insertRowAndScrollToIt(indexPath: IndexPath) {
+        if indexPath == IndexPath(row: 0, section: 0) {
+            insertFirstRowAndScrollToIt()
+            return
+        }
+        
+        insertRows(at: [indexPath], with: .fade)
+        scrollToRow(at: indexPath, at: .none, animated: true)
+    }
+    
     open func appendRowAndScrollToIt() {
         // Table view adds cell without animations at the bottom if it outside of visible bounds
         // So need to animate it manually.

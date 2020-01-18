@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qR7-wM-gYJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qR7-wM-gYJ">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -44,23 +44,33 @@
                     <navigationItem key="navigationItem" id="34w-fQ-bSu">
                         <barButtonItem key="backBarButtonItem" title=" " id="acM-6b-jal"/>
                         <leftBarButtonItems>
-                            <barButtonItem id="OG2-Zp-KZC">
+                            <barButtonItem width="30" id="OG2-Zp-KZC">
                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WUm-nO-86j">
-                                    <rect key="frame" x="16" y="7" width="60" height="30"/>
+                                    <rect key="frame" x="16" y="7" width="30" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="Add Top"/>
+                                    <state key="normal" title="AT"/>
                                     <connections>
                                         <action selector="onAddTopTap:" destination="qR7-wM-gYJ" eventType="touchUpInside" id="wwb-9W-haZ"/>
                                     </connections>
                                 </button>
                             </barButtonItem>
-                            <barButtonItem id="b29-fr-SdD">
+                            <barButtonItem width="20" id="b29-fr-SdD">
                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IIy-hX-XcK">
-                                    <rect key="frame" x="84" y="7" width="82" height="30"/>
+                                    <rect key="frame" x="54" y="7" width="30" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="Add Bottom"/>
+                                    <state key="normal" title="AB"/>
                                     <connections>
                                         <action selector="onAddBottomTap:" destination="qR7-wM-gYJ" eventType="touchUpInside" id="rQD-hH-rzh"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                            <barButtonItem width="20" style="plain" id="fiQ-h9-IdE">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4m2-P7-5ce">
+                                    <rect key="frame" x="92" y="7" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="I"/>
+                                    <connections>
+                                        <action selector="onInsertTap:" destination="qR7-wM-gYJ" eventType="touchUpInside" id="vj9-8w-uc7"/>
                                     </connections>
                                 </button>
                             </barButtonItem>
